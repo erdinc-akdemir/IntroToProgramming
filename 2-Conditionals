@@ -1,0 +1,27 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        int sayi=20;
+/*
+        if(sayi>0 && sayi<10){
+            System.out.println("Tek Haneli");
+        }
+        else if(sayi>=10 && sayi<100){
+            System.out.println("Çift Haneli");
+        }
+        else{
+            System.out.println("Üç hanelidir");
+        }
+*/
+        if(sayi>20){
+            System.out.println("20 DEN BÜYÜK");
+        }
+        else if(sayi==20){
+            System.out.println("20 YE EŞİT");
+        }
+        else{
+            System.out.println("20 DEN KÜÇÜK");
+        }
+    }
+}
