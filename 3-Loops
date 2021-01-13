@@ -1,0 +1,33 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        // for loop
+        // for ile 1-100 arası asal sayılar
+        /*boolean asalMi=true;
+
+        for(int i=1;i<100;i++){
+            for(int j=2;j<i;j++){
+                if(i%j==0){
+                    asalMi=false;
+                    break;
+                }
+            }
+            if(asalMi){
+                System.out.println(i);
+            }
+            asalMi=true;
+        }  */
+
+        //While loop
+
+        int i=1;
+        while(i<100){
+            if(i%2==0){
+                System.out.println(i);
+            }
+
+            i++;
+        }
+    }
+}
